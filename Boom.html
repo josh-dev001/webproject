@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="Boom.css">
+</head>
+<body>
+  
+  <header>
+
+<div class="header-container">
+
+  <div class="logo">
+<img src="images/logo.jpg" alt="Mr Web logo" style="max-width: 95px;">
+  </div>
+<!--src=" Images/logo.jpg" alt="mr web logo"  -->
+
+    <nav>
+       <a href="#">Home</a>
+       <a href="#">about-us</a>
+       <a href="#">Services</a>
+       <a href="#">Contact</a>
+    </nav>
+
+<div class="cta">
+<a href="#" class="cta-button-header">Get started</a>
+</div>
+
+</div>
+
+  </header>
+
+<section class="hero">
+  <div class="hero-content">
+<h1>Welcome to Mr Web Designer</h1>
+<p>Your one-stop solution for web design and development </p>
+<a href="#" class="cta-button">Learn More</a>
+</div>
+</section>
+
+  <div class="flex-container">
+
+<div class="about-us">
+<img src="Images/joshua.jpg" alt="Mr Web designer in Kenya" style="max-width: 95%;">
+</div>
+
+<div class="about-us">
+<h2 style="color: black;">Hi, A'm Joshua...</h2>
+<p>Hello! I’m <strong>Joshua Kimaiyo</strong>, a passionate web designer based in Kenya. 
+         I specialize in building clean, modern, and user-friendly websites that help businesses 
+         and individuals shine online.</p>
+</div>
+
+  </div>
+
+
+ <div class="flex-container">
+  <div class="mydivname">
+    <h2>Website Design</h2>
+    <p>I build modern, responsive websites toilered to your brand-from landing pages to full  business states</p>
+    </div>
+
+  <div class="mydivname">
+    <h2>E-commerce sites</h2>
+    <p>Launch your own online store with powerful features,clean design and secure checkout funtionality </p>
+    </div>
+
+  <div class="mydivname">
+    <h2>Maintenance</h2>
+    <p>From updates to fixes and ongoing support to help keep your website running smootly</p>
+    </div>
+
+ </div>
+
+ <div class="flex-container contact-wrapper">
+   <div class="contact-info">
+    <h2>Get in touch</h2>
+    <p><b>Mr Web Designer</b></p>
+    <p>JK-solution</p>
+    <p>Phone: +254 707 591 261 </p>
+    <p>Email: <a href="mailto:kimaiyojoshua778@gmail.com">kimaiyojoshua778@gmail.com</a></p>
+   </div>
+      <div class="contact-form">
+      <h2>Send a message</h2>
+      <form action="submit form.php" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+
+      </form>
+    </div>
+
+<div>
+   <!-- Quick Contact Buttons -->
+  <div style="text-align:center; margin-top:2rem;">
+    <a href="mailto:kimaiyojoshua778@gmail.com" class="btn">📧 Email Me</a>
+    <a href="https://wa.me/254707591261" target="_blank" class="btn">💬 WhatsApp Me</a>
+  </div>
+  
+  <!-- Social Media Links -->
+  <div style="text-align:center; margin-top:1.5rem;">
+    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" style="margin:0 10px; text-decoration:none;">🔗 LinkedIn</a>
+    <a href="https://github.com/yourusername" target="_blank" style="margin:0 10px; text-decoration:none;">💻 GitHub</a>
+    <a href="https://www.instagram.com/yourusername" target="_blank" style="margin:0 10px; text-decoration:none;">📸 Instagram</a>
+    <a href="https://twitter.com/yourusername" target="_blank" style="margin:0 10px; text-decoration:none;">🐦 Twitter</a>
+  </div>
+</div>
+
+ </div>
+
+ <footer class="footer-name">
+        <p>&copy; <span id="year"></span> Your Company Name. All rigths reserved </p>
+ </footer>
+
+<script>
+  document.getElementById('year').textContent
+  =new Date().getFullYear();
+</script>
+
+</body>
+</html>
